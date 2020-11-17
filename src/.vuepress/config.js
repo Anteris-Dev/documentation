@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/',
+  base: process.env.VUEPRESS_BASE || '/',
 
   title: 'Anteris Documentation',
   description: description,
