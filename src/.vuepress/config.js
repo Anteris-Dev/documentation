@@ -16,8 +16,8 @@ module.exports = {
     logo: '/assets/img/anteris-logo.png',
     repo: 'https://github.com/anteris-dev/documentation',
     editLinks: true,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: 'src',
+    editLinkText: 'Help us improve this page!',
     lastUpdated: 'Update At',
     smoothScroll: true,
     nav: [
