@@ -61,6 +61,19 @@ module.exports = {
         },
       ],
 
+      // Changes the sidebar for the DDD Laravel page
+      '/ddd-laravel/': [
+        {
+          title: 'Domain Driven Laravel',
+          collapsable: false,
+          children: [
+            '',
+            'commands',
+            'changes-made',
+          ]
+        }
+      ],
+
       // Changes the sidebar for the DTO Factory page
       '/dto-factory/': [
         {
@@ -81,6 +94,7 @@ module.exports = {
       '/': [
         ['/autotask-client/', 'Autotask Client'],
         ['/cache/', 'Cache'],
+        ['/ddd-laravel/', 'Domain Driven Laravel'],
         ['/dto-factory/', 'Data Transfer Object Factory'],
       ]
     }
