@@ -18,4 +18,4 @@ jobs:
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: src/.vuepress/dist/
-        VUEPRESS_BASE: '/documentation/'
+        VUEPRESS_BASE: /documentation/
